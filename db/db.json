@@ -6,42 +6,49 @@
       "password": "plainText"
     }
   ],
-
-  "posts" : [
+  "posts": [
     {
       "id": 2,
       "title": "this is a title",
       "text": "this is a post post",
       "image": "https://i.imgur.com/AD3MbBi.jpeg",
-      "upvotes": 200,
-      "downvotes": 10,
+      "upvotes": 206,
+      "downvotes": 13,
       "userId": 1
     },
     {
-      "id": 3,
-      "title": "this is a title",
-      "text": "this is a post post",
-      "image": "https://i.imgur.com/AD3MbBi.jpeg",
-      "upvotes": 200,
-      "downvotes": 10,
-      "userId": 1
+      "title": "The road is long",
+      "image": "https://i.imgur.com/2bvab7y.jpeg",
+      "text": "here's a sidekick",
+      "upvotes": 2,
+      "downvotes": 2,
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "title": "hello",
+      "image": "https://i.imgur.com/2bvab7y.jpeg",
+      "text": "Another sidekick",
+      "upvotes": 1,
+      "downvotes": 1,
+      "userId": 1,
+      "id": 10
     }
   ],
-  "comments" : [
-      {
-        "id": 22,
-        "text": "this is a comment comment",
-        "postId": 2,
-        "userId": 1,
-        "upvotes": 200,
-        "downvotes": 10
-      }
+  "comments": [
+    {
+      "id": 22,
+      "text": "this is a comment comment",
+      "postId": 2,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10
+    }
   ],
-
-  "subcreddits" : [
-      {
-        "id": 3,
-        "name": "tryCreddit"
-      }
+  "subcreddits": [
+    {
+      "id": 3,
+      "name": "tryCreddit"
+    }
   ]
 }
