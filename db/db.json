@@ -2,8 +2,28 @@
   "users": [
     {
       "id": 1,
-      "userName": "sampleUser",
+      "username": "sampleUser",
       "password": "plainText"
+    },
+    {
+      "username": "sampleUser2",
+      "password": "weak",
+      "id": 2
+    },
+    {
+      "username": "sampleUser",
+      "password": "plainText",
+      "id": 3
+    },
+    {
+      "username": "sampleUser3",
+      "password": "weak",
+      "id": 4
+    },
+    {
+      "username": "sampleUser4",
+      "password": "weak",
+      "id": 5
     }
   ],
   "posts": [
@@ -12,16 +32,16 @@
       "title": "this is a title",
       "text": "this is a post post",
       "image": "https://i.imgur.com/AD3MbBi.jpeg",
-      "upvotes": 206,
-      "downvotes": 13,
+      "upvotes": 221,
+      "downvotes": 27,
       "userId": 1
     },
     {
       "title": "The road is long",
       "image": "https://i.imgur.com/2bvab7y.jpeg",
       "text": "here's a sidekick",
-      "upvotes": 2,
-      "downvotes": 2,
+      "upvotes": 7,
+      "downvotes": 3,
       "userId": 1,
       "id": 9
     },
@@ -29,10 +49,19 @@
       "title": "hello",
       "image": "https://i.imgur.com/2bvab7y.jpeg",
       "text": "Another sidekick",
-      "upvotes": 1,
-      "downvotes": 1,
+      "upvotes": 5,
+      "downvotes": 2,
       "userId": 1,
       "id": 10
+    },
+    {
+      "title": "Money makes the cat meow",
+      "image": "https://i.imgur.com/ewwtMXz.jpeg",
+      "text": "Here is some text about it.",
+      "upvotes": 1,
+      "downvotes": 0,
+      "userId": 1,
+      "id": 11
     }
   ],
   "comments": [
@@ -43,6 +72,69 @@
       "userId": 1,
       "upvotes": 200,
       "downvotes": 10
+    },
+    {
+      "comment": "adding a comment\n",
+      "postId": 2,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 23
+    },
+    {
+      "comment": "Comment on details page",
+      "postId": 2,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 24
+    },
+    {
+      "comment": "",
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 25
+    },
+    {
+      "comment": "THis is a comment on money",
+      "postId": 2,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 26
+    },
+    {
+      "comment": "Adding another comment\n",
+      "postId": 2,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 27
+    },
+    {
+      "comment": "Adding something\n",
+      "postId": 2,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 28
+    },
+    {
+      "comment": "Stacked some cash I see",
+      "postId": 11,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 29
+    },
+    {
+      "comment": "Hella money cat\n",
+      "postId": 11,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 30
     }
   ],
   "subcreddits": [
