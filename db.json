@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "email": "benjamin@mail.com",
+      "email": "anon@mail.com",
       "password": "$2a$10$QWk8j7od9/siRl0OD1u5O.X.GDG1SxdrwUq/WazG49uYD/oop1Sme",
       "id": 1
     },
@@ -9,6 +9,12 @@
       "email": "b@mail.com",
       "password": "$2a$10$03X8eyT50cMIh3LUIaah0egYFNoIKcMs0oceb4D1qdGBAE8FpfLSG",
       "id": 2
+    },
+    {
+      "email": "bashful@mail.com",
+      "password": "$2a$10$/Cd.ySJ8c8JUK8gmMStE5.rRTbn6B24ugjgD4SsUaBHss6Fsq.zPe",
+      "about": "I'm one of the 7 canonical dwarves.",
+      "id": 3
     }
   ],
   "posts": [
@@ -17,8 +23,8 @@
       "title": "this is a title",
       "text": "this is a post post",
       "image": "https://i.imgur.com/AD3MbBi.jpeg",
-      "upvotes": 221,
-      "downvotes": 27,
+      "upvotes": 222,
+      "downvotes": 28,
       "userId": 1
     },
     {
@@ -65,6 +71,15 @@
       "downvotes": 0,
       "userId": 2,
       "id": 13
+    },
+    {
+      "title": "My spirit animal is a baNaNa",
+      "image": "https://i.imgur.com/F6BWjku.jpeg",
+      "text": "what's your spirit animal?",
+      "upvotes": 1,
+      "downvotes": 0,
+      "userId": 3,
+      "id": 14
     }
   ],
   "comments": [
@@ -146,6 +161,66 @@
       "upvotes": 200,
       "downvotes": 10,
       "id": 31
+    },
+    {
+      "comment": "Will this blend?",
+      "postId": 2,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 32
+    },
+    {
+      "comment": "This is a real live test",
+      "postId": 2,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 33
+    },
+    {
+      "comment": "I like money to kitten!\n",
+      "postId": 2,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 34
+    },
+    {
+      "comment": "This comment should have a date created. \n",
+      "postId": 9,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "dateCreated": "8/5/2021, 8:55:27 AM",
+      "id": 35
+    },
+    {
+      "comment": "It does. Fun!",
+      "postId": 9,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "dateCreated": "8/5/2021, 8:55:42 AM",
+      "id": 36
+    },
+    {
+      "comment": "A cat, most likely",
+      "postId": 14,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "dateCreated": "8/5/2021, 9:50:54 AM",
+      "id": 37
+    },
+    {
+      "comment": "freckles",
+      "postId": 14,
+      "userId": 1,
+      "upvotes": 0,
+      "downvotes": 0,
+      "dateCreated": "8/5/2021, 9:57:51 AM",
+      "id": 38
     }
   ],
   "subcreddits": [
