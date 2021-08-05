@@ -1,9 +1,14 @@
 {
   "users": [
     {
-      "username": "benjamin@mail.com",
-      "password": "hello",
+      "email": "benjamin@mail.com",
+      "password": "$2a$10$QWk8j7od9/siRl0OD1u5O.X.GDG1SxdrwUq/WazG49uYD/oop1Sme",
       "id": 1
+    },
+    {
+      "email": "b@mail.com",
+      "password": "$2a$10$03X8eyT50cMIh3LUIaah0egYFNoIKcMs0oceb4D1qdGBAE8FpfLSG",
+      "id": 2
     }
   ],
   "posts": [
@@ -29,7 +34,7 @@
       "title": "hello",
       "image": "https://i.imgur.com/2bvab7y.jpeg",
       "text": "Another sidekick",
-      "upvotes": 5,
+      "upvotes": 6,
       "downvotes": 2,
       "userId": 1,
       "id": 10
@@ -38,10 +43,28 @@
       "title": "Money makes the cat meow",
       "image": "https://i.imgur.com/ewwtMXz.jpeg",
       "text": "Here is some text about it.",
-      "upvotes": 1,
+      "upvotes": 2,
       "downvotes": 0,
       "userId": 1,
       "id": 11
+    },
+    {
+      "title": "Does this have a userId of 2? I wonder.",
+      "image": "https://images.theconversation.com/files/227374/original/file-20180712-27021-7iamol.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop",
+      "text": "",
+      "upvotes": 0,
+      "downvotes": 0,
+      "userId": 2,
+      "id": 12
+    },
+    {
+      "title": "singles only, please",
+      "image": "https://i.imgur.com/TrCGzPJ.jpeg",
+      "text": "stacked singles tho",
+      "upvotes": 0,
+      "downvotes": 0,
+      "userId": 2,
+      "id": 13
     }
   ],
   "comments": [
@@ -115,6 +138,14 @@
       "upvotes": 200,
       "downvotes": 10,
       "id": 30
+    },
+    {
+      "comment": "It does",
+      "postId": 12,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "id": 31
     }
   ],
   "subcreddits": [
