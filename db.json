@@ -15,6 +15,12 @@
       "password": "$2a$10$/Cd.ySJ8c8JUK8gmMStE5.rRTbn6B24ugjgD4SsUaBHss6Fsq.zPe",
       "about": "I'm one of the 7 canonical dwarves.",
       "id": 3
+    },
+    {
+      "email": "josh@email.com",
+      "password": "$2a$10$/VBRMgGLxHfVrl1jko/ycu02P.zcC3g8.vzGGLFbV8ZqgQb/ZR/3O",
+      "about": "YOOO",
+      "id": 4
     }
   ],
   "posts": [
@@ -80,6 +86,34 @@
       "downvotes": 0,
       "userId": 3,
       "id": 14
+    },
+    {
+      "title": "My First Post!",
+      "image": "https://i.imgur.com/2bvab7y.jpeg",
+      "text": "Check out this content.",
+      "upvotes": 0,
+      "downvotes": 0,
+      "userId": 4,
+      "id": 15
+    },
+    {
+      "title": "My First Post!",
+      "image": "https://i.imgur.com/2bvab7y.jpeg",
+      "text": "Checkout this content.",
+      "upvotes": 0,
+      "downvotes": 0,
+      "userId": 4,
+      "id": 16
+    },
+    {
+      "title": "My First Post!",
+      "image": "https://i.imgur.com/2bvab7y.jpeg",
+      "text": "Checkout this content.",
+      "upvotes": 0,
+      "downvotes": 0,
+      "userId": 4,
+      "email": "josh@email.com",
+      "id": 17
     }
   ],
   "comments": [
@@ -221,6 +255,24 @@
       "downvotes": 0,
       "dateCreated": "8/5/2021, 9:57:51 AM",
       "id": 38
+    },
+    {
+      "comment": "Wassup anon!\n",
+      "postId": 2,
+      "userId": 1,
+      "upvotes": 200,
+      "downvotes": 10,
+      "dateCreated": "8/5/2021, 10:30:33 AM",
+      "id": 39
+    },
+    {
+      "comment": "Waddup anon!",
+      "postId": 2,
+      "userId": 4,
+      "upvotes": 0,
+      "downvotes": 0,
+      "dateCreated": "8/5/2021, 10:38:48 AM",
+      "id": 40
     }
   ],
   "subcreddits": [
